@@ -1,0 +1,102 @@
+body {
+  margin: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 10%;
+}
+
+header {
+  width: auto;
+  height: 4rem;
+  background-color:yellowgreen;
+  margin: 0%;
+  padding: 2rem;
+
+  color: white;
+  font-size: 3em;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 0.5rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-top: 2em;
+
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.3rem;
+}
+
+input {
+  font-size: 3rem;
+  border-color: black;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+div {
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+button {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background-color:darkgray;
+  border: none;
+  padding: 1em;
+  border-radius: 0.5rem;
+
+  color: white;
+  font-size: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  transition: all 0.1s;
+}
+
+button:hover {
+  color: cornflowerblue;
+  border: cornflowerblue solid 1px;
+  background: #fff;
+}
+
+#dans {
+    width: 7em;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+
+    color: white;
+    font-size: 4rem;
+}
+
+#ans {
+    color: black;
+    font-size: 40px;
+
+    margin-top: 1rem;
+}
